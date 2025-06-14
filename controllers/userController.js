@@ -39,7 +39,7 @@ const handleStart = async (ctx) => {
     await ctx.reply(welcomeMessage[user.language] || welcomeMessage.english);
     
     // Show language options with inline keyboard
-    await ctx.reply("Select your language / अपनी भाषा चुनें / ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ:", 
+    await ctx.reply("Select your lan / अपनी भाषा चुनें / ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ:", 
       Markup.inlineKeyboard([
         [Markup.button.callback('English', 'lang_english')],
         [Markup.button.callback('हिंदी (Hindi)', 'lang_hindi')],
