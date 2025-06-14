@@ -8,39 +8,25 @@ const passSchema = new mongoose.Schema({
   },
   type: {
     type: String,
-    enum: ['daily', 'monthly', 'student', 'senior'],
-    required: true
+    required: true,
+    enum: ['Daily', 'Weekly', 'Monthly']
   },
   validFrom: {
     type: Date,
-    required: true
+    required: true,
+    default: Date.now
   },
   validUntil: {
     type: Date,
     required: true
   },
-  fare: {
+  price: {
     type: Number,
     required: true
   },
-  paymentStatus: {
-    type: String,
-    enum: ['pending', 'completed', 'failed'],
-    default: 'pending'
-  },
-  paymentId: {
-    type: String
-  },
-  qrCode: {
-    type: String
-  },
-  documents: [{
-    type: String
-  }],
-  status: {
-    type: String,
-    enum: ['pending', 'approved', 'rejected', 'active', 'expired'],
-    default: 'pending'
+  isActive: {
+    type: Boolean,
+    default: true
   },
   createdAt: {
     type: Date,
