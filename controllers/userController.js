@@ -31,7 +31,7 @@ const handleStart = async (ctx) => {
     
     // Send welcome message
     const welcomeMessage = {
-      english: `Hey motherfucker to CTU Transport Bot 🚌\n\nI can help you with:\n- Buying bus tickets\n- Purchasing bus passes\n- Tracking buses\n- Finding routes\n\nPlease select your preferred language:`,
+      english: `Hey motherfuckers to CTU Transport Bot 🚌\n\nI can help you with:\n- Buying bus tickets\n- Purchasing bus passes\n- Tracking buses\n- Finding routes\n\nPlease select your preferred language:`,
       hindi: `CTU Transport Bot में आपका स्वागत है 🚌\n\nमैं आपकी इनमें मदद कर सकता हूं:\n- बस टिकट खरीदना\n- बस पास खरीदना\n- बसों को ट्रैक करना\n- मार्ग खोजना\n\nकृपया अपनी पसंदीदा भाषा चुनें:`,
       punjabi: `CTU Transport Bot ਵਿੱਚ ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ 🚌\n\nਮੈਂ ਤੁਹਾਡੀ ਇਹਨਾਂ ਵਿੱਚ ਮਦਦ ਕਰ ਸਕਦਾ ਹਾਂ:\n- ਬੱਸ ਟਿਕਟ ਖਰੀਦਣਾ\n- ਬੱਸ ਪਾਸ ਖਰੀਦਣਾ\n- ਬੱਸਾਂ ਨੂੰ ਟਰੈਕ ਕਰਨਾ\n- ਰੂਟ ਲੱਭਣਾ\n\nਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀ ਪਸੰਦੀਦਾ ਭਾਸ਼ਾ ਚੁਣੋ:`
     };
