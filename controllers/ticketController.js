@@ -449,13 +449,13 @@ const handleTicketCallbacks = async (ctx) => {
     const user = await User.findOne({ telegramId: telegramId.toString() });
     
     if (!user) {
-      await ctx.answerCbQuery('User not found. Please restart the bot.');
+      await ctx.reply('User not found. Please use /start to restart the bot.');
       return;
     }
     
     const language = user?.language || 'english';
     
-    await ctx.answerCbQuery();
+    // Don't call answerCbQuery here - it's handled in main app.js
     
     // Handle different ticket callbacks
     if (callbackData === 'ticket_buy') {

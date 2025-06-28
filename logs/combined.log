@@ -1,0 +1,1631 @@
+2025-06-27T11:50:02: Attempting to start bot...
+2025-06-27T11:50:02: Testing Telegram API connection...
+2025-06-27T11:50:02: Server running on port 3000
+2025-06-27T11:50:02: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T11:50:02: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T11:50:02: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T11:50:02: Retrying in 10 seconds...
+2025-06-27T11:50:04: MongoDB Atlas Connected: ac-cv3quvg-shard-00-01.mojl7hg.mongodb.net
+2025-06-27T11:56:33: Bot started on retry
+2025-06-27T11:56:39: Attempting to start bot...
+2025-06-27T11:56:39: Testing Telegram API connection...
+2025-06-27T11:56:39: Server running on port 3000
+2025-06-27T11:56:40: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T11:56:40: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T11:56:40: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T11:56:40: Retrying in 10 seconds...
+2025-06-27T11:56:42: MongoDB Atlas Connected: ac-cv3quvg-shard-00-01.mojl7hg.mongodb.net
+2025-06-27T11:56:50: Failed to start bot on retry: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T11:56:50: Please check your network connection and try again later.
+Error: Bot is not running!
+    at Telegraf.stop (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/telegraf.js:218:19)
+    at process.<anonymous> (/home/aditya/ctu/user-bot/app.js:232:34)
+    at Object.onceWrapper (node:events:633:26)
+    at process.emit (node:events:518:28)
+2025-06-27T11:57:32: Attempting to start bot...
+2025-06-27T11:57:32: Testing Telegram API connection...
+2025-06-27T11:57:32: Server running on port 3000
+2025-06-27T11:57:33: Telegram API connection test successful
+2025-06-27T11:57:34: MongoDB Atlas Connected: ac-cv3quvg-shard-00-00.mojl7hg.mongodb.net
+2025-06-27T12:08:42: Bot started successfully
+2025-06-27T12:09:19: Attempting to start bot...
+2025-06-27T12:09:19: Testing Telegram API connection...
+2025-06-27T12:09:19: Server running on port 3000
+2025-06-27T12:09:19: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:09:19: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:09:19: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:09:19: Retrying in 10 seconds...
+2025-06-27T12:09:28: Error connecting to MongoDB Atlas: connect ETIMEDOUT 159.41.180.228:27017, connect ENETUNREACH 64:ff9b::9f29:b4e4:27017 - Local (:::0)
+2025-06-27T12:09:29: Attempting to start bot...
+2025-06-27T12:09:29: Testing Telegram API connection...
+2025-06-27T12:09:29: Server running on port 3000
+2025-06-27T12:09:29: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:09:29: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:09:29: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:09:29: Retrying in 10 seconds...
+2025-06-27T12:09:39: Failed to start bot on retry: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:09:39: Please check your network connection and try again later.
+2025-06-27T12:09:46: Error connecting to MongoDB Atlas: connect ETIMEDOUT 159.41.180.228:27017, connect ENETUNREACH 64:ff9b::9f29:b4e4:27017 - Local (:::0)
+2025-06-27T12:09:47: Attempting to start bot...
+2025-06-27T12:09:47: Testing Telegram API connection...
+2025-06-27T12:09:47: Server running on port 3000
+2025-06-27T12:09:47: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:09:47: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:09:47: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:09:47: Retrying in 10 seconds...
+2025-06-27T12:09:56: MongoDB Atlas Connected: ac-cv3quvg-shard-00-01.mojl7hg.mongodb.net
+2025-06-27T12:09:58: Failed to start bot on retry: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:09:58: Please check your network connection and try again later.
+Error: Bot is not running!
+    at Telegraf.stop (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/telegraf.js:218:19)
+    at process.<anonymous> (/home/aditya/ctu/user-bot/app.js:232:34)
+    at Object.onceWrapper (node:events:633:26)
+    at process.emit (node:events:518:28)
+2025-06-27T12:10:01: Attempting to start bot...
+2025-06-27T12:10:01: Testing Telegram API connection...
+2025-06-27T12:10:01: Server running on port 3000
+2025-06-27T12:10:01: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:10:01: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:10:01: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:10:01: Retrying in 10 seconds...
+2025-06-27T12:10:09: Error connecting to MongoDB Atlas: connect ETIMEDOUT 159.41.180.228:27017, connect ENETUNREACH 64:ff9b::9f29:b4e4:27017 - Local (:::0)
+2025-06-27T12:10:10: Attempting to start bot...
+2025-06-27T12:10:10: Testing Telegram API connection...
+2025-06-27T12:10:10: Server running on port 3000
+2025-06-27T12:10:11: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:10:11: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:10:12: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:10:12: Retrying in 10 seconds...
+2025-06-27T12:10:22: Failed to start bot on retry: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:10:22: Please check your network connection and try again later.
+2025-06-27T12:10:32: Error connecting to MongoDB Atlas: connect ETIMEDOUT 159.41.180.228:27017, connect ENETUNREACH 64:ff9b::9f29:b4e4:27017 - Local (:::0)
+2025-06-27T12:10:34: Attempting to start bot...
+2025-06-27T12:10:34: Testing Telegram API connection...
+2025-06-27T12:10:34: Server running on port 3000
+2025-06-27T12:10:34: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:10:34: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:10:34: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:10:34: Retrying in 10 seconds...
+2025-06-27T12:10:44: MongoDB Atlas Connected: ac-cv3quvg-shard-00-00.mojl7hg.mongodb.net
+2025-06-27T12:10:46: Failed to start bot on retry: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:10:46: Please check your network connection and try again later.
+Error: Bot is not running!
+    at Telegraf.stop (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/telegraf.js:218:19)
+    at process.<anonymous> (/home/aditya/ctu/user-bot/app.js:232:34)
+    at Object.onceWrapper (node:events:633:26)
+    at process.emit (node:events:518:28)
+2025-06-27T12:11:01: Attempting to start bot...
+2025-06-27T12:11:01: Testing Telegram API connection...
+2025-06-27T12:11:01: Server running on port 3000
+2025-06-27T12:11:02: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:11:02: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:11:02: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:11:02: Retrying in 10 seconds...
+2025-06-27T12:11:04: Error connecting to MongoDB Atlas: connect ETIMEDOUT 159.41.180.228:27017, connect ENETUNREACH 64:ff9b::9f29:b4e4:27017 - Local (:::0)
+2025-06-27T12:11:05: Attempting to start bot...
+2025-06-27T12:11:05: Testing Telegram API connection...
+2025-06-27T12:11:05: Server running on port 3000
+2025-06-27T12:11:05: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:11:05: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:11:06: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:11:06: Retrying in 10 seconds...
+2025-06-27T12:11:13: MongoDB Atlas Connected: ac-cv3quvg-shard-00-00.mojl7hg.mongodb.net
+2025-06-27T12:11:16: Failed to start bot on retry: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:11:16: Please check your network connection and try again later.
+Error: Bot is not running!
+    at Telegraf.stop (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/telegraf.js:218:19)
+    at process.<anonymous> (/home/aditya/ctu/user-bot/app.js:232:34)
+    at Object.onceWrapper (node:events:633:26)
+    at process.emit (node:events:518:28)
+2025-06-27T12:11:54: Attempting to start bot...
+2025-06-27T12:11:54: Testing Telegram API connection...
+2025-06-27T12:11:54: Server running on port 3000
+2025-06-27T12:11:54: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:11:54: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:11:54: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:11:54: Retrying in 10 seconds...
+2025-06-27T12:12:04: MongoDB Atlas Connected: ac-cv3quvg-shard-00-01.mojl7hg.mongodb.net
+2025-06-27T12:12:05: Failed to start bot on retry: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:12:05: Please check your network connection and try again later.
+Error: Bot is not running!
+    at Telegraf.stop (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/telegraf.js:218:19)
+    at process.<anonymous> (/home/aditya/ctu/user-bot/app.js:232:34)
+    at Object.onceWrapper (node:events:633:26)
+    at process.emit (node:events:518:28)
+2025-06-27T12:12:25: Attempting to start bot...
+2025-06-27T12:12:25: Testing Telegram API connection...
+2025-06-27T12:12:25: Server running on port 3000
+2025-06-27T12:12:25: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:12:25: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:12:26: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:12:26: Retrying in 10 seconds...
+2025-06-27T12:12:36: Failed to start bot on retry: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:12:36: Please check your network connection and try again later.
+2025-06-27T12:12:39: MongoDB Atlas Connected: ac-cv3quvg-shard-00-01.mojl7hg.mongodb.net
+Error: Bot is not running!
+    at Telegraf.stop (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/telegraf.js:218:19)
+    at process.<anonymous> (/home/aditya/ctu/user-bot/app.js:232:34)
+    at Object.onceWrapper (node:events:633:26)
+    at process.emit (node:events:518:28)
+2025-06-27T12:13:18: Attempting to start bot...
+2025-06-27T12:13:18: Testing Telegram API connection...
+2025-06-27T12:13:18: Server running on port 3000
+2025-06-27T12:13:18: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:13:18: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:13:18: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:13:18: Retrying in 10 seconds...
+2025-06-27T12:13:29: Failed to start bot on retry: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:13:29: Please check your network connection and try again later.
+2025-06-27T12:13:49: Error connecting to MongoDB Atlas: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-06-27T12:13:51: Attempting to start bot...
+2025-06-27T12:13:51: Testing Telegram API connection...
+2025-06-27T12:13:51: Server running on port 3000
+2025-06-27T12:14:04: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:14:04: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:14:05: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:14:05: Retrying in 10 seconds...
+2025-06-27T12:14:11: Error connecting to MongoDB Atlas: connect ETIMEDOUT 159.41.180.228:27017, connect ENETUNREACH 64:ff9b::9f29:b4e4:27017 - Local (:::0)
+2025-06-27T12:14:12: Attempting to start bot...
+2025-06-27T12:14:12: Testing Telegram API connection...
+2025-06-27T12:14:13: Server running on port 3000
+2025-06-27T12:14:13: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:14:13: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:14:13: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:14:13: Retrying in 10 seconds...
+Error: Bot is not running!
+    at Telegraf.stop (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/telegraf.js:218:19)
+    at process.<anonymous> (/home/aditya/ctu/user-bot/app.js:232:34)
+    at Object.onceWrapper (node:events:633:26)
+    at process.emit (node:events:518:28)
+2025-06-27T12:14:32: Attempting to start bot...
+2025-06-27T12:14:32: Testing Telegram API connection...
+2025-06-27T12:14:32: Server running on port 3000
+2025-06-27T12:14:33: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:14:33: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:14:33: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:14:33: Retrying in 10 seconds...
+2025-06-27T12:14:38: Error connecting to MongoDB Atlas: connect ETIMEDOUT 159.41.180.228:27017, connect ENETUNREACH 64:ff9b::9f29:b4e4:27017 - Local (:::0)
+2025-06-27T12:14:39: Attempting to start bot...
+2025-06-27T12:14:39: Testing Telegram API connection...
+2025-06-27T12:14:39: Server running on port 3000
+2025-06-27T12:14:40: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:14:40: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:14:40: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:14:40: Retrying in 10 seconds...
+2025-06-27T12:14:50: Failed to start bot on retry: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:14:50: Please check your network connection and try again later.
+2025-06-27T12:15:12: MongoDB Atlas Connected: ac-cv3quvg-shard-00-01.mojl7hg.mongodb.net
+Error: Bot is not running!
+    at Telegraf.stop (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/telegraf.js:218:19)
+    at process.<anonymous> (/home/aditya/ctu/user-bot/app.js:232:34)
+    at Object.onceWrapper (node:events:633:26)
+    at process.emit (node:events:518:28)
+2025-06-27T12:15:40: Attempting to start bot...
+2025-06-27T12:15:40: Testing Telegram API connection...
+2025-06-27T12:15:40: Server running on port 3000
+2025-06-27T12:15:40: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:15:40: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:15:40: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:15:40: Retrying in 10 seconds...
+2025-06-27T12:15:41: MongoDB Atlas Connected: ac-cv3quvg-shard-00-01.mojl7hg.mongodb.net
+2025-06-27T12:15:52: Bot error: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/sendMessage failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:15:53: Error in handleStart: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/sendMessage failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:15:59: Bot started on retry
+2025-06-27T12:16:07: Attempting to start bot...
+2025-06-27T12:16:07: Testing Telegram API connection...
+2025-06-27T12:16:07: Server running on port 3000
+2025-06-27T12:16:08: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:16:08: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:16:08: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:16:08: Retrying in 10 seconds...
+2025-06-27T12:16:09: MongoDB Atlas Connected: ac-cv3quvg-shard-00-00.mojl7hg.mongodb.net
+2025-06-27T12:16:18: Failed to start bot on retry: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processTimers (node:internal/timers:520:9) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:16:18: Please check your network connection and try again later.
+Error: Bot is not running!
+    at Telegraf.stop (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/telegraf.js:218:19)
+    at process.<anonymous> (/home/aditya/ctu/user-bot/app.js:233:35)
+    at Object.onceWrapper (node:events:633:26)
+    at process.emit (node:events:518:28)
+2025-06-27T12:16:38: Attempting to start bot...
+2025-06-27T12:16:38: Testing Telegram API connection...
+2025-06-27T12:16:38: Server running on port 3000
+2025-06-27T12:16:39: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:16:39: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:16:39: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:16:39: Retrying in 10 seconds...
+2025-06-27T12:16:40: MongoDB Atlas Connected: ac-cv3quvg-shard-00-00.mojl7hg.mongodb.net
+Error: Bot is not running!
+    at Telegraf.stop (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/telegraf.js:218:19)
+    at process.<anonymous> (/home/aditya/ctu/user-bot/app.js:232:34)
+    at Object.onceWrapper (node:events:633:26)
+    at process.emit (node:events:518:28)
+2025-06-27T12:16:50: Attempting to start bot...
+2025-06-27T12:16:50: Testing Telegram API connection...
+2025-06-27T12:16:50: Server running on port 3000
+2025-06-27T12:16:50: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:16:50: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:16:51: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:16:51: Retrying in 10 seconds...
+2025-06-27T12:16:52: MongoDB Atlas Connected: ac-cv3quvg-shard-00-00.mojl7hg.mongodb.net
+2025-06-27T12:17:01: Failed to start bot on retry: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:17:01: Please check your network connection and try again later.
+Error: Bot is not running!
+    at Telegraf.stop (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/telegraf.js:218:19)
+    at process.<anonymous> (/home/aditya/ctu/user-bot/app.js:232:34)
+    at Object.onceWrapper (node:events:633:26)
+    at process.emit (node:events:518:28)
+2025-06-27T12:17:31: Attempting to start bot...
+2025-06-27T12:17:31: Testing Telegram API connection...
+2025-06-27T12:17:31: Server running on port 3000
+2025-06-27T12:17:31: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:17:31: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:17:32: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:17:32: Retrying in 10 seconds...
+2025-06-27T12:17:33: MongoDB Atlas Connected: ac-cv3quvg-shard-00-01.mojl7hg.mongodb.net
+2025-06-27T12:17:42: Failed to start bot on retry: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:17:42: Please check your network connection and try again later.
+Error: Bot is not running!
+    at Telegraf.stop (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/telegraf.js:218:19)
+    at process.<anonymous> (/home/aditya/ctu/user-bot/app.js:232:34)
+    at Object.onceWrapper (node:events:633:26)
+    at process.emit (node:events:518:28)
+2025-06-27T12:17:51: Attempting to start bot...
+2025-06-27T12:17:51: Testing Telegram API connection...
+2025-06-27T12:17:51: Server running on port 3000
+2025-06-27T12:17:51: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:17:51: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:17:51: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:17:51: Retrying in 10 seconds...
+2025-06-27T12:17:56: MongoDB Atlas Connected: ac-cv3quvg-shard-00-01.mojl7hg.mongodb.net
+2025-06-27T12:18:02: Failed to start bot on retry: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:18:02: Please check your network connection and try again later.
+Error: Bot is not running!
+    at Telegraf.stop (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/telegraf.js:218:19)
+    at process.<anonymous> (/home/aditya/ctu/user-bot/app.js:232:34)
+    at Object.onceWrapper (node:events:633:26)
+    at process.emit (node:events:518:28)
+2025-06-27T12:18:40: Attempting to start bot...
+2025-06-27T12:18:40: Testing Telegram API connection...
+2025-06-27T12:18:40: Server running on port 3000
+2025-06-27T12:18:41: Telegram API connection test successful
+2025-06-27T12:18:41: MongoDB Atlas Connected: ac-cv3quvg-shard-00-00.mojl7hg.mongodb.net
+2025-06-27T12:18:46: Bot started successfully
+2025-06-27T12:19:03: Attempting to start bot...
+2025-06-27T12:19:03: Testing Telegram API connection...
+2025-06-27T12:19:03: Server running on port 3000
+2025-06-27T12:19:05: MongoDB Atlas Connected: ac-cv3quvg-shard-00-02.mojl7hg.mongodb.net
+2025-06-27T12:19:05: Telegram API connection test successful
+2025-06-27T12:19:05: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:19:05: Retrying in 10 seconds...
+2025-06-27T12:20:00: Bot started on retry
+2025-06-27T12:20:11: Attempting to start bot...
+2025-06-27T12:20:11: Testing Telegram API connection...
+2025-06-27T12:20:11: Server running on port 3000
+2025-06-27T12:20:13: Telegram API connection test successful
+2025-06-27T12:20:13: MongoDB Atlas Connected: ac-cv3quvg-shard-00-02.mojl7hg.mongodb.net
+2025-06-27T12:20:18: Bot started successfully
+2025-06-27T12:26:55: Attempting to start bot...
+2025-06-27T12:26:55: Testing Telegram API connection...
+2025-06-27T12:26:55: Server running on port 3000
+2025-06-27T12:26:56: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:26:56: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:26:57: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:26:57: Retrying in 10 seconds...
+2025-06-27T12:27:03: Error connecting to MongoDB Atlas: connect ETIMEDOUT 159.41.180.228:27017, connect ENETUNREACH 64:ff9b::9f29:b4e4:27017 - Local (:::0)
+2025-06-27T12:27:07: Attempting to start bot...
+2025-06-27T12:27:07: Testing Telegram API connection...
+2025-06-27T12:27:07: Server running on port 3000
+2025-06-27T12:27:07: Error testing Telegram API connection: FetchError: request to https://api.telegram.org/bot8090075203:AAExEFee3sWbOcFkQwyrc8q6QDQLMnrxpMU/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:27:07: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:27:08: Error starting bot: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:27:08: Retrying in 10 seconds...
+2025-06-27T12:27:10: MongoDB Atlas Connected: ac-cv3quvg-shard-00-00.mojl7hg.mongodb.net
+2025-06-27T12:27:18: Failed to start bot on retry: FetchError: request to https://api.telegram.org/bot8090075203:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:27:18: Please check your network connection and try again later.
+Error: Bot is not running!
+    at Telegraf.stop (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/telegraf.js:218:19)
+    at process.<anonymous> (/home/aditya/ctu/user-bot/app.js:232:34)
+    at Object.onceWrapper (node:events:633:26)
+    at process.emit (node:events:518:28)
+2025-06-27T12:33:27: Attempting to start bot...
+2025-06-27T12:33:27: Testing Telegram API connection...
+2025-06-27T12:33:27: Server running on port 3000
+2025-06-27T12:33:28: Error testing Telegram API connection: request to https://api.telegram.org/bot7358551906:AAH_7ucQtaizG3JAqVWt0ABrK2BszwaMbTY/getMe failed, reason: 
+2025-06-27T12:33:28: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:33:28: Error starting bot: FetchError: request to https://api.telegram.org/bot7358551906:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:33:28: Retrying in 10 seconds...
+2025-06-27T12:33:32: MongoDB Atlas Connected: ac-cv3quvg-shard-00-02.mojl7hg.mongodb.net
+2025-06-27T12:33:39: Failed to start bot on retry: FetchError: request to https://api.telegram.org/bot7358551906:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:33:39: Please check your network connection and try again later.
+Error: Bot is not running!
+    at Telegraf.stop (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/telegraf.js:218:19)
+    at process.<anonymous> (/home/aditya/ctu/user-bot/app.js:245:34)
+    at Object.onceWrapper (node:events:633:26)
+    at process.emit (node:events:518:28)
+2025-06-27T12:37:01: Attempting to start bot...
+2025-06-27T12:37:01: Testing Telegram API connection...
+2025-06-27T12:37:01: Server running on port 3000
+2025-06-27T12:37:01: Telegram API connection test successful
+2025-06-27T12:37:02: MongoDB Atlas Connected: ac-cv3quvg-shard-00-00.mojl7hg.mongodb.net
+2025-06-27T12:38:14: Error in handleTicketCallbacks: TelegramError: 400: Bad Request: query is too old and response timeout expired or query ID is invalid
+    at Telegram.callApi (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.handleTicketCallbacks (/home/aditya/ctu/user-bot/controllers/ticketController.js:458:5)
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17) {
+  response: {
+    ok: false,
+    error_code: 400,
+    description: 'Bad Request: query is too old and response timeout expired or query ID is invalid'
+  },
+  on: {
+    method: 'answerCallbackQuery',
+    payload: { text: undefined, callback_query_id: '4885528959418522828' }
+  }
+}
+2025-06-27T12:38:15: Error in handleTicketCallbacks: TelegramError: 400: Bad Request: query is too old and response timeout expired or query ID is invalid
+    at Telegram.callApi (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.handleTicketCallbacks (/home/aditya/ctu/user-bot/controllers/ticketController.js:458:5)
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17) {
+  response: {
+    ok: false,
+    error_code: 400,
+    description: 'Bad Request: query is too old and response timeout expired or query ID is invalid'
+  },
+  on: {
+    method: 'answerCallbackQuery',
+    payload: { text: undefined, callback_query_id: '4885528961061412707' }
+  }
+}
+2025-06-27T12:38:26: Error in handleTicketCallbacks: TelegramError: 400: Bad Request: query is too old and response timeout expired or query ID is invalid
+    at Telegram.callApi (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.handleTicketCallbacks (/home/aditya/ctu/user-bot/controllers/ticketController.js:458:5)
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17) {
+  response: {
+    ok: false,
+    error_code: 400,
+    description: 'Bad Request: query is too old and response timeout expired or query ID is invalid'
+  },
+  on: {
+    method: 'answerCallbackQuery',
+    payload: { text: undefined, callback_query_id: '4885528961927820555' }
+  }
+}
+2025-06-27T12:38:56: Error in handleTicketCallbacks: TelegramError: 400: Bad Request: query is too old and response timeout expired or query ID is invalid
+    at Telegram.callApi (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.handleTicketCallbacks (/home/aditya/ctu/user-bot/controllers/ticketController.js:458:5)
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17) {
+  response: {
+    ok: false,
+    error_code: 400,
+    description: 'Bad Request: query is too old and response timeout expired or query ID is invalid'
+  },
+  on: {
+    method: 'answerCallbackQuery',
+    payload: { text: undefined, callback_query_id: '4885528961454782144' }
+  }
+}
+2025-06-27T12:39:00: Error in handleTicketCallbacks: TelegramError: 400: Bad Request: query is too old and response timeout expired or query ID is invalid
+    at Telegram.callApi (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.handleTicketCallbacks (/home/aditya/ctu/user-bot/controllers/ticketController.js:458:5)
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17) {
+  response: {
+    ok: false,
+    error_code: 400,
+    description: 'Bad Request: query is too old and response timeout expired or query ID is invalid'
+  },
+  on: {
+    method: 'answerCallbackQuery',
+    payload: { text: undefined, callback_query_id: '4885528961727127552' }
+  }
+}
+2025-06-27T12:40:10: Bot error: FetchError: request to https://api.telegram.org/bot7358551906:[REDACTED]/sendMessage failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:40:10: Error in handleTicketCallbacks: TelegramError: 400: Bad Request: query is too old and response timeout expired or query ID is invalid
+    at Telegram.callApi (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.handleTicketCallbacks (/home/aditya/ctu/user-bot/controllers/ticketController.js:458:5)
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17) {
+  response: {
+    ok: false,
+    error_code: 400,
+    description: 'Bad Request: query is too old and response timeout expired or query ID is invalid'
+  },
+  on: {
+    method: 'answerCallbackQuery',
+    payload: { text: undefined, callback_query_id: '4885528960575754763' }
+  }
+}
+2025-06-27T12:42:02: Error in handleLanguageCallback: TelegramError: 400: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+    at Telegram.callApi (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.handleLanguageCallback (/home/aditya/ctu/user-bot/controllers/userController.js:97:5)
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17) {
+  response: {
+    ok: false,
+    error_code: 400,
+    description: 'Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message'
+  },
+  on: {
+    method: 'editMessageText',
+    payload: {
+      chat_id: 5741696922,
+      message_id: 44,
+      inline_message_id: undefined,
+      text: 'Language set to English.'
+    }
+  }
+}
+2025-06-27T12:42:43: Attempting to start bot...
+2025-06-27T12:42:43: Testing Telegram API connection...
+2025-06-27T12:42:44: Server running on port 3000
+2025-06-27T12:42:44: Error testing Telegram API connection: request to https://api.telegram.org/bot7358551906:AAH_7ucQtaizG3JAqVWt0ABrK2BszwaMbTY/getMe failed, reason: 
+2025-06-27T12:42:44: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:43:18: MongoDB Atlas Connected: ac-cv3quvg-shard-00-00.mojl7hg.mongodb.net
+2025-06-27T12:44:55: Error in handleTicketCallbacks: TelegramError: 400: Bad Request: query is too old and response timeout expired or query ID is invalid
+    at Telegram.callApi (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.handleTicketCallbacks (/home/aditya/ctu/user-bot/controllers/ticketController.js:458:5)
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17) {
+  response: {
+    ok: false,
+    error_code: 400,
+    description: 'Bad Request: query is too old and response timeout expired or query ID is invalid'
+  },
+  on: {
+    method: 'answerCallbackQuery',
+    payload: { text: undefined, callback_query_id: '6213656430811625432' }
+  }
+}
+2025-06-27T12:44:55: Error in handleTicketCallbacks: TelegramError: 400: Bad Request: query is too old and response timeout expired or query ID is invalid
+    at Telegram.callApi (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.handleTicketCallbacks (/home/aditya/ctu/user-bot/controllers/ticketController.js:458:5)
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17) {
+  response: {
+    ok: false,
+    error_code: 400,
+    description: 'Bad Request: query is too old and response timeout expired or query ID is invalid'
+  },
+  on: {
+    method: 'answerCallbackQuery',
+    payload: { text: undefined, callback_query_id: '6213656434103034893' }
+  }
+}
+2025-06-27T12:45:57: Bot error: TimeoutError: Promise timed out after 90000 milliseconds
+    at Timeout._onTimeout (/home/aditya/ctu/user-bot/node_modules/p-timeout/index.js:39:64)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+2025-06-27T12:46:09: Error answering callback query: FetchError: request to https://api.telegram.org/bot7358551906:[REDACTED]/answerCallbackQuery failed, reason: socket hang up
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketOnEnd (node:_http_client:542:5)
+    at TLSSocket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ECONNRESET',
+  code: 'ECONNRESET'
+}
+2025-06-27T12:46:10: Error in handleLanguageCallback: TelegramError: 400: Bad Request: query is too old and response timeout expired or query ID is invalid
+    at Telegram.callApi (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.handleLanguageCallback (/home/aditya/ctu/user-bot/controllers/userController.js:96:5)
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17)
+    at async /home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/composer.js:518:17) {
+  response: {
+    ok: false,
+    error_code: 400,
+    description: 'Bad Request: query is too old and response timeout expired or query ID is invalid'
+  },
+  on: {
+    method: 'answerCallbackQuery',
+    payload: {
+      text: 'Language set to English.',
+      callback_query_id: '4885528961618371426'
+    }
+  }
+}
+2025-06-27T12:47:52: Bot started successfully
+2025-06-27T12:47:59: Attempting to start bot...
+2025-06-27T12:47:59: Testing Telegram API connection...
+2025-06-27T12:47:59: Server running on port 3000
+2025-06-27T12:48:00: Telegram API connection test successful
+2025-06-27T12:48:00: MongoDB Atlas Connected: ac-cv3quvg-shard-00-00.mojl7hg.mongodb.net
+2025-06-27T12:48:58: Attempting to start bot...
+2025-06-27T12:48:58: Testing Telegram API connection...
+2025-06-27T12:48:59: Server running on port 3000
+2025-06-27T12:48:59: Error testing Telegram API connection: request to https://api.telegram.org/bot7358551906:AAH_7ucQtaizG3JAqVWt0ABrK2BszwaMbTY/getMe failed, reason: 
+2025-06-27T12:48:59: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:49:06: MongoDB Atlas Connected: ac-cv3quvg-shard-00-00.mojl7hg.mongodb.net
+2025-06-27T12:49:11: Bot started successfully
+2025-06-27T12:49:17: Attempting to start bot...
+2025-06-27T12:49:17: Testing Telegram API connection...
+2025-06-27T12:49:17: Server running on port 3000
+2025-06-27T12:49:23: Telegram API connection test successful
+2025-06-27T12:49:32: Bot started successfully
+2025-06-27T12:49:33: MongoDB Atlas Connected: ac-cv3quvg-shard-00-00.mojl7hg.mongodb.net
+2025-06-27T12:49:36: Attempting to start bot...
+2025-06-27T12:49:36: Testing Telegram API connection...
+2025-06-27T12:49:36: Server running on port 3000
+2025-06-27T12:49:46: Telegram API connection timeout
+2025-06-27T12:49:46: Could not connect to Telegram API. Will try to start bot anyway...
+Error: Bot is not running!
+    at Telegraf.stop (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/telegraf.js:218:19)
+    at process.<anonymous> (/home/aditya/ctu/user-bot/app.js:266:34)
+    at Object.onceWrapper (node:events:633:26)
+    at process.emit (node:events:518:28)
+2025-06-27T12:49:50: Attempting to start bot...
+2025-06-27T12:49:50: Testing Telegram API connection...
+2025-06-27T12:49:50: Server running on port 3000
+2025-06-27T12:49:54: MongoDB Atlas Connected: ac-cv3quvg-shard-00-00.mojl7hg.mongodb.net
+2025-06-27T12:49:54: Telegram API connection test successful
+2025-06-27T12:49:54: Error starting bot: FetchError: request to https://api.telegram.org/bot7358551906:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-27T12:49:54: Retrying in 2 seconds...
+Error: Bot is not running!
+    at Telegraf.stop (/home/aditya/ctu/user-bot/node_modules/telegraf/lib/telegraf.js:218:19)
+    at process.<anonymous> (/home/aditya/ctu/user-bot/app.js:266:34)
+    at Object.onceWrapper (node:events:633:26)
+    at process.emit (node:events:518:28)
+2025-06-27T12:50:04: Attempting to start bot...
+2025-06-27T12:50:04: Testing Telegram API connection...
+2025-06-27T12:50:04: Server running on port 3000
+2025-06-27T12:50:04: Error testing Telegram API connection: request to https://api.telegram.org/bot7358551906:AAH_7ucQtaizG3JAqVWt0ABrK2BszwaMbTY/getMe failed, reason: 
+2025-06-27T12:50:04: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:50:11: MongoDB Atlas Connected: ac-cv3quvg-shard-00-00.mojl7hg.mongodb.net
+2025-06-27T12:50:17: Bot started successfully
+2025-06-27T12:50:23: Attempting to start bot...
+2025-06-27T12:50:23: Testing Telegram API connection...
+2025-06-27T12:50:23: Server running on port 3000
+2025-06-27T12:50:33: Telegram API connection timeout
+2025-06-27T12:50:33: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:50:34: MongoDB Atlas Connected: ac-cv3quvg-shard-00-00.mojl7hg.mongodb.net
+2025-06-27T12:50:36: Bot started successfully
+2025-06-27T12:50:42: Attempting to start bot...
+2025-06-27T12:50:42: Testing Telegram API connection...
+2025-06-27T12:50:42: Server running on port 3000
+2025-06-27T12:50:45: Telegram API connection test successful
+2025-06-27T12:50:47: MongoDB Atlas Connected: ac-cv3quvg-shard-00-00.mojl7hg.mongodb.net
+2025-06-27T12:52:07: Bot started successfully
+2025-06-27T12:52:12: Attempting to start bot...
+2025-06-27T12:52:12: Testing Telegram API connection...
+2025-06-27T12:52:12: Server running on port 3000
+2025-06-27T12:52:22: Telegram API connection timeout
+2025-06-27T12:52:22: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:52:38: Bot error: MongooseError: Operation `users.findOneAndUpdate()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/aditya/ctu/user-bot/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:185:23)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+2025-06-27T12:52:52: Error connecting to MongoDB Atlas: connection timed out
+2025-06-27T12:52:56: Attempting to start bot...
+2025-06-27T12:52:56: Testing Telegram API connection...
+2025-06-27T12:52:56: Server running on port 3000
+2025-06-27T12:53:02: Telegram API connection test successful
+2025-06-27T12:53:28: Error connecting to MongoDB Atlas: Server selection timed out after 30000 ms
+2025-06-27T12:53:32: Attempting to start bot...
+2025-06-27T12:53:32: Testing Telegram API connection...
+2025-06-27T12:53:32: Server running on port 3000
+2025-06-27T12:53:42: Telegram API connection timeout
+2025-06-27T12:53:42: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-27T12:53:48: MongoDB Atlas Connected: ac-cv3quvg-shard-00-00.mojl7hg.mongodb.net
+2025-06-27T13:17:19: Bot error: TimeoutError: Promise timed out after 90000 milliseconds
+    at Timeout._onTimeout (/home/aditya/ctu/user-bot/node_modules/p-timeout/index.js:39:64)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+FetchError: request to https://api.telegram.org/bot7358551906:[REDACTED]/sendMessage failed, reason: getaddrinfo EAI_AGAIN api.telegram.org
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2025-06-27T13:17:29: Unhandled Promise Rejection: FetchError: request to https://api.telegram.org/bot7358551906:[REDACTED]/sendMessage failed, reason: getaddrinfo EAI_AGAIN api.telegram.org
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'EAI_AGAIN',
+  code: 'EAI_AGAIN'
+}
+2025-06-27T13:17:30: Error in handleStart: FetchError: request to https://api.telegram.org/bot7358551906:[REDACTED]/sendMessage failed, reason: read ETIMEDOUT
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-29T00:29:42: Attempting to start bot...
+2025-06-29T00:29:42: Testing Telegram API connection...
+2025-06-29T00:29:42: Server running on port 3000
+2025-06-29T00:29:42: Error testing Telegram API connection: request to https://api.telegram.org/bot7358551906:AAH_7ucQtaizG3JAqVWt0ABrK2BszwaMbTY/getMe failed, reason: 
+2025-06-29T00:29:42: Could not connect to Telegram API. Will try to start bot anyway...
+2025-06-29T00:29:43: Error starting bot: FetchError: request to https://api.telegram.org/bot7358551906:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-29T00:29:43: Retrying in 2 seconds...
+2025-06-29T00:29:44: Error connecting to MongoDB Atlas: connect ETIMEDOUT 159.41.233.33:27017, connect ENETUNREACH 64:ff9b::9f29:e921:27017 - Local (:::0)
+2025-06-29T00:29:49: Attempting to start bot...
+2025-06-29T00:29:49: Testing Telegram API connection...
+2025-06-29T00:29:49: Server running on port 3000
+2025-06-29T00:29:50: Telegram API connection test successful
+2025-06-29T00:29:50: Error starting bot: FetchError: request to https://api.telegram.org/bot7358551906:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-29T00:29:50: Retrying in 2 seconds...
+2025-06-29T00:29:52: MongoDB Atlas Connected: ac-cv3quvg-shard-00-02.mojl7hg.mongodb.net
+2025-06-29T00:29:53: Failed to start bot on retry: FetchError: request to https://api.telegram.org/bot7358551906:[REDACTED]/getMe failed, reason: 
+    at ClientRequest.<anonymous> (/home/aditya/ctu/user-bot/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+2025-06-29T00:29:53: Please check your network connection and try again later.

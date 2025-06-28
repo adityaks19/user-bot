@@ -1,10 +1,14 @@
 const { Telegraf } = require('telegraf');
 
-// Initialize bot with token and extended timeout
+// Initialize bot with token and optimized timeout
 const bot = new Telegraf(process.env.TELEGRAM_BOT_TOKEN || '', {
   telegram: {
-    // Set a longer timeout (2 minutes)
-    timeout: 120000
+    // Set a reasonable timeout (30 seconds)
+    timeout: 30000,
+    // Add retry configuration
+    retryAfter: 1,
+    // Disable webhook mode
+    webhookReply: false
   }
 });
 

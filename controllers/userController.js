@@ -93,14 +93,15 @@ const handleLanguageCallback = async (ctx) => {
       punjabi: 'ਭਾਸ਼ਾ ਪੰਜਾਬੀ ਤੇ ਸੈੱਟ ਕੀਤੀ ਗਈ।'
     };
     
-    await ctx.answerCbQuery(confirmationMessage[language]);
-    await ctx.editMessageText(confirmationMessage[language]);
+    // Don't call answerCbQuery here - it's handled in main app.js
+    // Just send a new message instead of editing
+    await ctx.reply(confirmationMessage[language]);
     
     // Show main menu
     await showMainMenu(ctx, language);
   } catch (error) {
     console.error('Error in handleLanguageCallback:', error);
-    await ctx.reply('Sorry, something went wrong. Please try again.');
+    await ctx.reply('Sorry, something went wrong. Please try /reset to restart.');
   }
 };
 

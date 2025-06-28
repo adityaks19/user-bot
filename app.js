@@ -73,8 +73,11 @@ bot.command('reset', async (ctx) => {
   return userController.handleStart(ctx);
 });
 
-// Handle callback queries
+// Handle callback queries with ultra-fast response
 bot.on('callback_query', async (ctx) => {
+  // Answer callback query IMMEDIATELY - no try/catch to avoid delays
+  ctx.answerCbQuery().catch(() => {}); // Ignore any errors
+  
   try {
     const callbackData = ctx.callbackQuery.data;
     
@@ -113,13 +116,11 @@ bot.on('callback_query', async (ctx) => {
       return passController.handlePassCallbacks(ctx);
     }
     
-    // Unknown callback
-    await ctx.answerCbQuery('Unknown option');
-    await ctx.reply('Sorry, I didn\'t understand that option. Please try again.');
+    // Unknown callback - just ignore
+    
   } catch (error) {
     console.error('Error handling callback query:', error);
-    await ctx.answerCbQuery('Error occurred');
-    await ctx.reply('Sorry, something went wrong. Please try again or use /reset to restart the bot.');
+    // Don't send any error messages to avoid more issues
   }
 });
 
@@ -162,7 +163,14 @@ bot.on('message', async (ctx) => {
     }
   } catch (error) {
     console.error('Error handling message:', error);
-    await ctx.reply('Sorry, something went wrong. Please try again or use /start to restart the bot.');
+    // Only send error message if it's not a timeout or duplicate error
+    if (!error.message.includes('query is too old') && !error.message.includes('message is not modified')) {
+      try {
+        await ctx.reply('Sorry, something went wrong. Please use /reset to restart.');
+      } catch (replyError) {
+        console.error('Error sending error reply:', replyError);
+      }
+    }
   }
 });
 
@@ -175,11 +183,20 @@ bot.catch((err, ctx) => {
 // Start bot with improved error handling and retry logic
 console.log('Attempting to start bot...');
 
-// Function to test Telegram API connectivity
+// Function to test Telegram API connectivity with timeout
 const testTelegramAPI = async () => {
   try {
-    const response = await fetch(`https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}/getMe`);
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 10000); // 10 second timeout
+    
+    const response = await fetch(`https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}/getMe`, {
+      signal: controller.signal,
+      timeout: 10000
+    });
+    
+    clearTimeout(timeoutId);
     const data = await response.json();
+    
     if (data.ok) {
       console.log('Telegram API connection test successful');
       return true;
@@ -188,7 +205,11 @@ const testTelegramAPI = async () => {
       return false;
     }
   } catch (error) {
-    console.error('Error testing Telegram API connection:', error);
+    if (error.name === 'AbortError') {
+      console.error('Telegram API connection timeout');
+    } else {
+      console.error('Error testing Telegram API connection:', error.message);
+    }
     return false;
   }
 };
@@ -203,6 +224,19 @@ const startBot = async () => {
       console.log('Could not connect to Telegram API. Will try to start bot anyway...');
     }
     
+    // Add global error handler for the bot
+    bot.catch((err, ctx) => {
+      console.error('Bot error:', err);
+      // Don't send error messages for timeout errors
+      if (!err.message.includes('query is too old') && !err.message.includes('message is not modified')) {
+        try {
+          ctx.reply('Sorry, an error occurred. Please use /reset to restart.');
+        } catch (replyError) {
+          console.error('Error sending error reply:', replyError);
+        }
+      }
+    });
+    
     // Try to start the bot
     await bot.launch({
       allowedUpdates: ['message', 'callback_query'],
@@ -211,9 +245,9 @@ const startBot = async () => {
     console.log('Bot started successfully');
   } catch (error) {
     console.error('Error starting bot:', error);
-    console.log('Retrying in 10 seconds...');
+    console.log('Retrying in 2 seconds...');
     
-    // Try again after 10 seconds
+    // Try again after 2 seconds
     setTimeout(async () => {
       try {
         await bot.launch();
@@ -222,7 +256,7 @@ const startBot = async () => {
         console.error('Failed to start bot on retry:', retryError);
         console.log('Please check your network connection and try again later.');
       }
-    }, 10000);
+    }, 2000);
   }
 };
 
